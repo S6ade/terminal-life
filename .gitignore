@@ -1,0 +1,29 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Секреты
+.env
+*.env
+*.key
+*.pem
+*.crt
+
+
+# Логи
+*.log
+
+# Артефакты
+dist/
+build/
+
+# ВМ
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+key.json
